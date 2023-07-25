@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ControlVidas : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
     //Variables
     public GameObject[] BarraVIDAS;
