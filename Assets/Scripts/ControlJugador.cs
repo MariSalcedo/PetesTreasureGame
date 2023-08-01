@@ -5,6 +5,12 @@ using UnityEngine;
 public class ControlJugador : MonoBehaviour
 {
 
+    public static ControlJugador obj;
+
+    [Header ("Monedas")]
+
+    public int monedas = 0;
+
     // Variables para caminar
     private Rigidbody2D CuerpoDelJugador;
     private Animator AnimatorDelJugador;
@@ -18,6 +24,11 @@ public class ControlJugador : MonoBehaviour
     private bool EstaEnElPiso;
     private float RadioDelSensor = 0.07f;
 
+
+    private void Awake()
+    {
+        obj = this;
+    }
 
     // Start is called before the first frame update. Carga cuando se abre la escena, solo 1 vez.
     void Start()
