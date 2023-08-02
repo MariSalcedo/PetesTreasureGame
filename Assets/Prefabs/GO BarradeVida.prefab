@@ -420,7 +420,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -371.7226, y: 215.63376}
-  m_SizeDelta: {x: 195.9187, y: 36.3334}
+  m_SizeDelta: {x: 195.9187, y: 36.333405}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3204381350474394435
 MonoBehaviour:
@@ -434,6 +434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4feb39be494168468a211aab6bdc7b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textoMoneda: {fileID: 0}
   BarraVIDAS:
   - {fileID: 3204381349027094202}
   - {fileID: 3204381349597280918}

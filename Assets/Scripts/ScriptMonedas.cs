@@ -24,6 +24,7 @@ public class ScriptMonedas : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             ControlJugador.obj.monedas++;
+            GameManager.obj.textoMoneda.text = (ControlJugador.obj.monedas.ToString());
             Destroy(this.gameObject);
         }
     }

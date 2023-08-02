@@ -1,15 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager obj;
+    [Header("textoMonedas")]
+
+    public TextMeshProUGUI textoMoneda;
+
     //Variables
     public GameObject[] BarraVIDAS;
     private int LimiteVidas = 5;
 
     // Metodos
+
+    private void Awake()
+    {
+        obj = this;
+    }
     public void DesactivarVIDA(int Indice)
     {
         BarraVIDAS[Indice].SetActive(false);
