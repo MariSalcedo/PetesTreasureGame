@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HistoriaDePete.unity
     guid: ee3bd0c061e79994c982c50a411f9a57
+  - enabled: 1
+    path: Assets/Scenes/IndicacionesJuego2.unity
+    guid: e0eef5dddd0ed8449bc3ebe118f53a7b
   m_configObjects: {}

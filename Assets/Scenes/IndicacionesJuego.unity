@@ -1062,12 +1062,12 @@ GameObject:
   - component: {fileID: 1264800822}
   - component: {fileID: 1264800821}
   m_Layer: 5
-  m_Name: Button1
+  m_Name: BotonSiguiente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1264800820
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1085,8 +1085,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 6.7042, y: 60.8}
-  m_SizeDelta: {x: 125.0502, y: 116.0375}
+  m_AnchoredPosition: {x: 299.62866, y: 41.3}
+  m_SizeDelta: {x: 83.1999, y: 77.2036}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1264800821
 MonoBehaviour:
@@ -1131,7 +1131,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1264800822}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 787794890}
+        m_TargetAssemblyTypeName: BotonCambiarEscena, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: IndicacionesJuego2
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1264800822
 MonoBehaviour:
   m_ObjectHideFlags: 0
