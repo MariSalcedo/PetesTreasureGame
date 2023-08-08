@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2447027363438844921}
   - component: {fileID: 2447027363438844902}
   m_Layer: 0
-  m_Name: PuntoDebil
+  m_Name: PuntoDebil collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -318,7 +318,7 @@ GameObject:
   - component: {fileID: 2447027364772243686}
   - component: {fileID: 2447027364772243687}
   m_Layer: 0
-  m_Name: Enemigo
+  m_Name: Sprite Enemigo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -634,7 +634,7 @@ GameObject:
   - component: {fileID: 2447027365263775225}
   - component: {fileID: 2447027365263775227}
   m_Layer: 0
-  m_Name: Cuerpo
+  m_Name: Cuerpo collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
