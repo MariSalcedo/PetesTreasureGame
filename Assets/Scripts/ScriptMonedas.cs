@@ -6,7 +6,6 @@ public class ScriptMonedas : MonoBehaviour
 {
     [SerializeField] private int valorMoneda;
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -27,5 +26,5 @@ public class ScriptMonedas : MonoBehaviour
             GameManager.obj.textoMoneda.text = (ControlJugador.obj.monedas.ToString());
             Destroy(this.gameObject);
         }
-    }
+    }   
 }
