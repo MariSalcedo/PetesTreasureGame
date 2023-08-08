@@ -9,4 +9,12 @@ public class BotonCambiarEscena : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+
+    public void OnApplicationQuit()
+    {
+        {
+            UnityEditor.EditorApplication.isPlaying = false;
+            Application.Quit();
+        }
+    }
 }
