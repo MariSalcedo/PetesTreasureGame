@@ -22068,6 +22068,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "ca\xF1on (1)"
       objectReference: {fileID: 0}
+    - target: {fileID: 5863327405577486904, guid: 0143822595d6d504891dcbba76665c18, type: 3}
+      propertyPath: prefabACrear
+      value: 
+      objectReference: {fileID: 8765298683067910858, guid: 3901cdd9bf9b3b343bdd4ea5281234b0, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0143822595d6d504891dcbba76665c18, type: 3}
 --- !u!4 &1108665888 stripped
@@ -32738,6 +32742,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "ca\xF1on"
       objectReference: {fileID: 0}
+    - target: {fileID: 5863327405577486904, guid: 0143822595d6d504891dcbba76665c18, type: 3}
+      propertyPath: prefabACrear
+      value: 
+      objectReference: {fileID: 8765298683067910858, guid: 3901cdd9bf9b3b343bdd4ea5281234b0, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0143822595d6d504891dcbba76665c18, type: 3}
 --- !u!4 &5863327406098844235 stripped
