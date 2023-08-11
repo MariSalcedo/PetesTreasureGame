@@ -5,30 +5,36 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Inicio.unity
     guid: d440999bf4b3d1a478c6ba23d8e6314e
   - enabled: 1
+    path: Assets/Scenes/IndicacionesJuego.unity
+    guid: 461c5c21386688b4eae5fa5da9766b65
+  - enabled: 1
+    path: Assets/Scenes/IndicacionesJuego2.unity
+    guid: e0eef5dddd0ed8449bc3ebe118f53a7b
+  - enabled: 1
+    path: Assets/Scenes/HistoriaPete1.unity
+    guid: 6d07c9f1c8091554ebb693e416c78b25
+  - enabled: 1
+    path: Assets/Scenes/HistoriaPete2.unity
+    guid: 5dc181faa0ce74749ae9fb14681c2fe2
+  - enabled: 1
+    path: Assets/Scenes/HistoriaPete3.unity
+    guid: ac72e6e892f88784cabc86989bc6867f
+  - enabled: 1
+    path: Assets/Scenes/HistoriaPete4.unity
+    guid: ee3bd0c061e79994c982c50a411f9a57
+  - enabled: 1
     path: Assets/Scenes/Nivel0.unity
     guid: c0e211c2049293943a7b2fd71fa6cae0
-  - enabled: 1
-    path: Assets/Scenes/Nivel1.unity
-    guid: 819384ee556bb1249b4d40debb73f5f4
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: aa1ef343eb67a714fa99c50245f38394
   - enabled: 1
-    path: Assets/Scenes/IndicacionesJuego.unity
-    guid: 461c5c21386688b4eae5fa5da9766b65
-  - enabled: 1
-    path: Assets/Scenes/HistoriaDePete.unity
-    guid: ee3bd0c061e79994c982c50a411f9a57
-  - enabled: 1
-    path: Assets/Scenes/IndicacionesJuego2.unity
-    guid: e0eef5dddd0ed8449bc3ebe118f53a7b
+    path: Assets/Scenes/Nivel1.unity
+    guid: 819384ee556bb1249b4d40debb73f5f4
   - enabled: 1
     path: Assets/Scenes/Creditos.unity
     guid: 1999c7310475383408b97f93f3331e77
